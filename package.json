@@ -1,0 +1,39 @@
+{
+  "name": "wechat-openapi-sdk",
+  "version": "1.0.0",
+  "description": "微信开放平台API二次封装SDK，支持基础接口、素材管理、草稿管理、发布能力",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "wechat",
+    "weixin",
+    "wechat-api",
+    "weixin-api",
+    "wechat-sdk",
+    "微信",
+    "微信开放平台"
+  ],
+  "author": "your-name",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/wechat-openapi-sdk.git"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "jest": "^30.3.0",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "axios": "^1.15.0"
+  }
+}
